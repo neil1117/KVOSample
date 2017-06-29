@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    int redWaterCount;
+}
 
+@property (nonatomic) int hp;
 
 @end
 
