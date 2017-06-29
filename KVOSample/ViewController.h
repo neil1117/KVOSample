@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController
 {
-    int redWaterCount;
+    UITextView *infoTextView;
 }
 
 @property (nonatomic) int hp;
